@@ -1,0 +1,112 @@
+{
+  "schema": "oss-farming-registry-SAMPLE/v1",
+  "generated_at_utc": "2026-06-29T21:24:42.903884+00:00",
+  "what_this_is": "Public PROOF SAMPLE of the OSS Reputation-Farming Account Registry. The full registry (all accounts, full per-repo collateral, the operator-cluster pivot, and weekly re-grades) is the paid product.",
+  "seed_operators_handverified": [
+    "UnsafeLabs/Bounty-Hunters",
+    "SecureBananaLabs/bug-bounty",
+    "xevrion-v2/agent-playground",
+    "tine1117/oss-hunter-livefire"
+  ],
+  "totals_in_full_registry": {
+    "accounts_scanned_across_seeds": 178,
+    "confirmed_cross_trap_farmers": 20,
+    "new_operator_candidates_found_via_account_pivot": 21
+  },
+  "sample_confirmed_farmers": {
+    "BWM0223": {
+      "cross_trap_operator_count": 3,
+      "trap_operators_hit": [
+        "SecureBananaLabs/bug-bounty",
+        "UnsafeLabs/Bounty-Hunters",
+        "xevrion-v2/agent-playground"
+      ],
+      "total_prs_all_github": 1489,
+      "account_created": "2025-11-06",
+      "legit_or_other_repos_targeted": [
+        "CIVRA-INC/LumenHealth",
+        "sublime247/mobile-money",
+        "stellarkit-lab-devtools/stellarkit-api",
+        "karagozemin/sub-rosa-drips",
+        "spaceandtimefdn/sxt-proof-of-sql"
+      ]
+    },
+    "lb1192176991-lab": {
+      "cross_trap_operator_count": 3,
+      "trap_operators_hit": [
+        "SecureBananaLabs/bug-bounty",
+        "UnsafeLabs/Bounty-Hunters",
+        "xevrion-v2/agent-playground"
+      ],
+      "total_prs_all_github": 319,
+      "account_created": "2025-11-15",
+      "legit_or_other_repos_targeted": [
+        "lb1192176991-lab/zeroeye",
+        "2lll5/TentOfTrials",
+        "ritesh-1918/HELPDESK.AI",
+        "Cloudz-319/zeroeye",
+        "topcoder-platform/taas-apis"
+      ]
+    },
+    "sureshchouksey8": {
+      "cross_trap_operator_count": 3,
+      "trap_operators_hit": [
+        "SecureBananaLabs/bug-bounty",
+        "tine1117/oss-hunter-livefire",
+        "xevrion-v2/agent-playground"
+      ],
+      "total_prs_all_github": 260,
+      "account_created": "2016-10-09",
+      "legit_or_other_repos_targeted": [
+        "Spectral-Finance/lux",
+        "illbnm/homelab-stack",
+        "Reqrefusion/FreeCAD-Documentation-Project",
+        "tenstorrent/tt-metal",
+        "openmetaearth/me-hub"
+      ]
+    },
+    "clarboncy": {
+      "cross_trap_operator_count": 3,
+      "trap_operators_hit": [
+        "SecureBananaLabs/bug-bounty",
+        "UnsafeLabs/Bounty-Hunters",
+        "xevrion-v2/agent-playground"
+      ],
+      "total_prs_all_github": 70,
+      "account_created": "2021-05-11",
+      "legit_or_other_repos_targeted": [
+        "ritesh-1918/HELPDESK.AI",
+        "moorcheh-ai/memanto",
+        "typeorm/typeorm",
+        "David-patrick-chuks/Riona-AI-Agent",
+        "foxyManTou/kickama-foxy-trials"
+      ]
+    },
+    "lin20070906": {
+      "cross_trap_operator_count": 3,
+      "trap_operators_hit": [
+        "SecureBananaLabs/bug-bounty",
+        "UnsafeLabs/Bounty-Hunters",
+        "xevrion-v2/agent-playground"
+      ],
+      "total_prs_all_github": 69,
+      "account_created": "2025-07-21",
+      "legit_or_other_repos_targeted": [
+        "gibwork/gibwork-website",
+        "alisteuber4ee1/API-Integration-Pagination"
+      ]
+    }
+  },
+  "sample_new_operators_found": [
+    "claude-builders-bounty/claude-builders-bounty",
+    "123a-bcd/nailstorm-bounty-forge-358",
+    "Scottcjn/rustchain-bounties"
+  ],
+  "withheld_in_sample": [
+    "the other 15 confirmed farmer accounts",
+    "full per-account legit-repo collateral (which of YOUR repos each farmer is hitting)",
+    "the full 21-entry discovered-operator cluster",
+    "weekly re-crawl / new-account deltas"
+  ],
+  "method_note": "Accounts named here are PR authors into >=2 hand-verified agent-bounty-farm operators; classification re-derivable from each account's public PR history. 'discovered_operator_candidates' are repos surfaced purely via shared-farmer co-occurrence."
+}
